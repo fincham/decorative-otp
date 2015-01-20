@@ -9,6 +9,7 @@ The images produced by the script:
 * Incorporate a "faux typewriter" effect by randomly jittering the letters of an old-timey monospace font
 * Are sized to fit on a standard index card when printed
 * Are produced twice with the same numbers so two copies can be printed
+* Have an incrementing index number for synchronisation purposes
 * Are probably not suitable for actual cryptographic use
 
 To use, you will also need `LiberationMono-Bold.ttf` and `LiberationMono-Regular.ttf` from the [Liberation Fonts](https://fedorahosted.org/liberation-fonts/) collection placed in to the same directory as the script.
