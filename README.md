@@ -5,5 +5,9 @@ Produces decorative one-time-pad images suitable for your next LARP, ARG or just
 The images produced by the script:
 
 * Are sized to fit on a standard index card when printed
-* Incorporate faux typewriter effect by randomly jittering old timey Courier-esque letters
+* Incorporate a "faux typewriter" effect by randomly jittering the letters of an old-timey monospace font
 * Are probably not suitable for actual cryptographic use
+
+To use, you will need `LiberationMono-Bold.ttf` and `LiberationMono-Regular.ttf` from the [Liberation Fonts](https://fedorahosted.org/liberation-fonts/) collection placed in to the same directory as the script.
+
+This code was written hastily a long time ago. For publication in 2015 the random number functions have been changed to use Python's [SystemRandom](https://docs.python.org/2/library/random.html#random.SystemRandom), which should make the produced cards slightly more viable in the event someone accidentally uses them for actual cryptography.
